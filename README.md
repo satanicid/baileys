@@ -31,6 +31,24 @@ Begin by installing the library via your preferred package manager, then follow 
 
 ---
 
+## Add Function
+
+### Check ID Channel ( Simple code )
+Get ID channel 
+
+```javascript
+await sock.newsletterId(url)
+```
+
+### Check banned number
+You can see the status of blocked numbers here 
+
+```javascript
+await sock.checkStatusWA(number)
+```
+
+---
+
 ## SendMessage Documentation
 
 ### Status Group Message V2
